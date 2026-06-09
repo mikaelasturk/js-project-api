@@ -1,31 +1,38 @@
 {
-  "name": "js-project-api-parent",
+  "name": "js-project-api",
   "version": "1.0.0",
-  "private": true,
-  "workspaces": [
-    "backend",
-    "frontend"
-  ],
-  "devDependencies": {
-    "concurrently": "^9.2.1",
-    "eslint": "^10.4.0"
-  },
+  "description": "Server part of the JS API project",
   "scripts": {
-    "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
-    "start": "concurrently \"npm run start --workspace backend\" \"npm run dev --workspace frontend\"",
-    "test": "concurrently \"npm run test --workspace backend\" \"npm run test --workspace frontend\"",
-    "lint": "concurrently \"npm run lint --workspace backend\" \"npm run lint --workspace frontend\"",
-    "prettier": "concurrently \"npm run prettier --workspace backend\" \"npm run prettier --workspace frontend\"",
-    "build": "concurrently \"npm run build --workspace frontend\"",
-    "preview": "concurrently \"npm run preview --workspace frontend\""
+    "start": "babel-node server.js",
+    "dev": "nodemon server.js --exec babel-node",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.mjs",
+    "prettier": "prettier --write ."
   },
   "scripts-info": {
-    "dev": "Startar både backend (nodemon) och frontend (Vite) i utvecklingsläge parallellt",
-    "start": "Startar backend (production) och frontend (dev) parallellt",
-    "test": "Kör alla tester i backend och frontend parallellt",
-    "lint": "Lintar både backend- och frontend-koden med ESLint parallellt",
-    "prettier": "Formatterar kod i både backend och frontend med Prettier parallellt",
-    "build": "Bygger frontend-projektet för produktion (skapar dist/) parallellt",
-    "preview": "Startar en lokal preview-server för frontend-bygget parallellt"
+    "start": "Startar backend-servern i production mode (utan hot-reload)",
+    "dev": "Startar backend-servern i utvecklingsläge med nodemon och Babel (hot-reload)",
+    "test": "Kör alla Jest unit tests i backend/tests/",
+    "lint": "Kör ESLint-kontroll på all backend-kod (.js/.mjs)",
+    "prettier": "Formatterar all backend-kod enligt Prettier-konfigurationen (.prettierrc)"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "eslint": "^10.4.0",
+    "express": "^4.22.1",
+    "express-list-endpoints": "^7.1.1",
+    "express-validator": "^7.3.2",
+    "mongodb": "^7.1.1",
+    "mongoose": "^8.23.0",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3",
+    "yamljs": "^0.3.0"
   }
 }

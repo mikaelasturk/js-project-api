@@ -1,0 +1,160 @@
+openapi: 3.0.0
+info:
+  title: HappyThoughts API
+  version: 1.0.0
+  description: REST API för HappyThoughts-projektet
+servers:
+  - url: http://localhost:8080
+paths:
+  /:
+    get:
+      summary: API-dokumentation och endpoints
+      responses:
+        '200':
+          description: Lista av endpoints
+  /users:
+    get:
+      summary: Hämta alla användare
+      responses:
+        '200':
+          description: Lyckad förfrågan
+    post:
+      summary: Skapa ny användare
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserSignup'
+      responses:
+        '201':
+          description: Användare skapad
+  /users/login:
+    post:
+      summary: Logga in användare
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserLogin'
+      responses:
+        '200':
+          description: Inloggning lyckades
+  /thoughts:
+    get:
+      summary: Hämta alla tankar
+      responses:
+        '200':
+          description: Lyckad förfrågan
+    post:
+      summary: Skapa ny tanke (kräver auth)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ThoughtCreate'
+      responses:
+        '201':
+          description: Tanke skapad
+  /thoughts/{id}:
+    get:
+      summary: Hämta en tanke
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Lyckad förfrågan
+    put:
+      summary: Uppdatera tanke (kräver auth)
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ThoughtUpdate'
+      responses:
+        '200':
+          description: Tanke uppdaterad
+    delete:
+      summary: Ta bort tanke (kräver auth)
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Tanke borttagen
+  /thoughts/{id}/like:
+    post:
+      summary: Gilla en tanke (kräver auth)
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Tanke gillad
+components:
+  schemas:
+    UserSignup:
+      type: object
+      properties:
+        email:
+          type: string
+        password:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        cityValue:
+          type: string
+        username:
+          type: string
+    UserLogin:
+      type: object
+      properties:
+        email:
+          type: string
+        password:
+          type: string
+    ThoughtCreate:
+      type: object
+      properties:
+        message:
+          type: string
+        name:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        category:
+          type: string
+    ThoughtUpdate:
+      type: object
+      properties:
+        message:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        category:
+          type: string
