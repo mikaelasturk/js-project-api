@@ -1,121 +1,530 @@
 [
   {
-    "_id": "682bab8c12155b00101732ce",
     "message": "Berlin baby",
     "hearts": 37,
-    "createdAt": "2025-05-19T22:07:08.999Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-19T22:07:08.999Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682e53cc4fddf50010bbe739",
     "message": "My family!",
     "hearts": 0,
-    "createdAt": "2025-05-22T22:29:32.232Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-22T22:29:32.232Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682e4f844fddf50010bbe738",
     "message": "The smell of coffee in the morning....",
     "hearts": 23,
-    "createdAt": "2025-05-22T22:11:16.075Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-22T22:11:16.075Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682e48bf4fddf50010bbe737",
-    "message": "Newly washed bedlinen, kids that sleeps through the night.. FINGERS CROSSED 🤞🏼\n",
+    "message": "Newly washed bedlinen, kids that sleeps through the night.. FINGERS CROSSED 🤞🏼",
     "hearts": 6,
-    "createdAt": "2025-05-21T21:42:23.862Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-21T21:42:23.862Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682e45804fddf50010bbe736",
     "message": "I am happy that I feel healthy and have energy again",
     "hearts": 13,
-    "createdAt": "2025-05-21T21:28:32.196Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-21T21:28:32.196Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682e23fecf615800105107aa",
     "message": "cold beer",
     "hearts": 2,
-    "createdAt": "2025-05-21T19:05:34.113Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-21T19:05:34.113Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682e22aecf615800105107a9",
     "message": "My friend is visiting this weekend! <3",
     "hearts": 6,
-    "createdAt": "2025-05-21T18:59:58.121Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-21T18:59:58.121Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682cec1b17487d0010a298b6",
     "message": "A god joke: \nWhy did the scarecrow win an award?\nBecause he was outstanding in his field!",
     "hearts": 12,
-    "createdAt": "2025-05-20T20:54:51.082Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-20T20:54:51.082Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682cebbe17487d0010a298b5",
     "message": "Tacos and tequila🌮🍹",
     "hearts": 2,
-    "createdAt": "2025-05-19T20:53:18.899Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-19T20:53:18.899Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682ceb5617487d0010a298b4",
     "message": "Netflix and late night ice-cream🍦",
     "hearts": 1,
-    "createdAt": "2025-05-18T20:51:34.494Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-18T20:51:34.494Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682c99ba3bff2d0010f5d44e",
     "message": "Summer is coming...",
     "hearts": 2,
-    "createdAt": "2025-05-20T15:03:22.379Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-20T15:03:22.379Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682c706c951f7a0017130024",
     "message": "Exercise? I thought you said extra fries! 🍟😂",
     "hearts": 14,
-    "createdAt": "2025-05-20T12:07:08.185Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-20T12:07:08.185Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682c6fe1951f7a0017130023",
     "message": "I’m on a seafood diet. I see food, and I eat it.",
     "hearts": 4,
-    "createdAt": "2025-05-20T12:04:49.978Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-20T12:04:49.978Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682c6f0e951f7a0017130022",
     "message": "Cute monkeys🐒",
     "hearts": 2,
-    "createdAt": "2025-05-20T12:01:18.308Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-20T12:01:18.308Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682c6e65951f7a0017130021",
     "message": "The weather is nice!",
     "hearts": 0,
-    "createdAt": "2025-05-20T11:58:29.662Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-20T11:58:29.662Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682bfdb4270ca300105af221",
     "message": "good vibes and good things",
     "hearts": 3,
-    "createdAt": "2025-05-20T03:57:40.322Z",
-    "__v": 0
+    "thoughtCreatedAt": "2025-05-20T03:57:40.322Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   },
   {
-    "_id": "682bab8c12155b00101732ce",
-    "message": "Berlin baby",
-    "hearts": 37,
-    "createdAt": "2025-05-19T22:07:08.999Z",
-    "__v": 0
+    "message": "Morning sun and a calm cup of tea",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T06:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Finally finished my to do list for today",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T06:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Fresh air after rain feels amazing",
+    "hearts": 4,
+    "thoughtCreatedAt": "2025-05-23T06:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "A walk without my phone was exactly what I needed",
+    "hearts": 0,
+    "thoughtCreatedAt": "2025-05-23T06:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Someone smiled at me on the bus and it made my day",
+    "hearts": 3,
+    "thoughtCreatedAt": "2025-05-23T07:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Clean desk clear mind",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T07:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I remembered to stretch today",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T07:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Homemade pasta tonight",
+    "hearts": 5,
+    "thoughtCreatedAt": "2025-05-23T07:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "My playlist hit every right song",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T08:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Just watered all my plants and they look happy",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T08:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Coffee with a friend solved half my stress",
+    "hearts": 3,
+    "thoughtCreatedAt": "2025-05-23T08:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Today I said no to things I do not have energy for",
+    "hearts": 0,
+    "thoughtCreatedAt": "2025-05-23T08:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "A long shower and fresh towels are underrated",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T09:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Weekend plans are simple and perfect",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T09:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Read ten pages and now I want to read ten more",
+    "hearts": 4,
+    "thoughtCreatedAt": "2025-05-23T09:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I fixed a bug that looked impossible this morning",
+    "hearts": 6,
+    "thoughtCreatedAt": "2025-05-23T09:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Sunset colors made me stop and stare",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T10:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I tried a new recipe and it actually worked",
+    "hearts": 3,
+    "thoughtCreatedAt": "2025-05-23T10:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Laundry is done and that feels like winning",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T10:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I laughed so hard I had tears in my eyes",
+    "hearts": 5,
+    "thoughtCreatedAt": "2025-05-23T10:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "A short nap saved the entire afternoon",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T11:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Rain sounds made it easier to focus",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T11:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I called my grandparents and heard great stories",
+    "hearts": 3,
+    "thoughtCreatedAt": "2025-05-23T11:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "No alarms tomorrow",
+    "hearts": 4,
+    "thoughtCreatedAt": "2025-05-23T11:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I found money in an old jacket pocket",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T12:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "The team worked together really well today",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T12:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Soup and bread for dinner feels like comfort",
+    "hearts": 3,
+    "thoughtCreatedAt": "2025-05-23T12:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I reached inbox zero for five whole minutes",
+    "hearts": 0,
+    "thoughtCreatedAt": "2025-05-23T12:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "My code review comments were kind and useful",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T13:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I drank enough water today",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T13:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "New notebook day",
+    "hearts": 4,
+    "thoughtCreatedAt": "2025-05-23T13:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "The bakery still had warm cinnamon rolls",
+    "hearts": 5,
+    "thoughtCreatedAt": "2025-05-23T13:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I helped someone and it felt meaningful",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T14:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Tiny progress still counts",
+    "hearts": 3,
+    "thoughtCreatedAt": "2025-05-23T14:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I finally organized my desktop folders",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T14:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "A quick workout changed my mood completely",
+    "hearts": 4,
+    "thoughtCreatedAt": "2025-05-23T14:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "My train was on time",
+    "hearts": 0,
+    "thoughtCreatedAt": "2025-05-23T15:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I cleaned the kitchen before bed",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T15:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "An old song brought back great memories",
+    "hearts": 3,
+    "thoughtCreatedAt": "2025-05-23T15:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I got outside for a short walk between meetings",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T15:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "My dinner leftovers were even better today",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T16:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I kept a promise to myself",
+    "hearts": 4,
+    "thoughtCreatedAt": "2025-05-23T16:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Sunlight through the window made the room feel new",
+    "hearts": 3,
+    "thoughtCreatedAt": "2025-05-23T16:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I found my missing charger",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T16:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "The park was full of blooming trees",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T17:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "Today felt balanced",
+    "hearts": 5,
+    "thoughtCreatedAt": "2025-05-23T17:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I learned a new keyboard shortcut",
+    "hearts": 0,
+    "thoughtCreatedAt": "2025-05-23T17:30:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "My favorite mug survived another day",
+    "hearts": 2,
+    "thoughtCreatedAt": "2025-05-23T17:45:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "A friend sent me a random nice message",
+    "hearts": 3,
+    "thoughtCreatedAt": "2025-05-23T18:00:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
+  },
+  {
+    "message": "I cooked enough for lunch tomorrow too",
+    "hearts": 1,
+    "thoughtCreatedAt": "2025-05-23T18:15:00.000Z",
+    "name": "Anonymous",
+    "category": "General",
+    "tags": []
   }
 ]

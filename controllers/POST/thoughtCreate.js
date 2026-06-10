@@ -1,5 +1,5 @@
-import { Thought } from "../models/index.js";
-import { ERRORS } from "../utils/index.js";
+import { Thought } from "../../models/index.js";
+import { ERRORS } from "../../utils/index.js";
 
 export const createThought = async (req, res) => {
   try {
@@ -12,7 +12,7 @@ export const createThought = async (req, res) => {
     }
     const thought = new Thought({
       message,
-      name: username || "Anonym",
+      name: username || "Anonymous",
       userId,
       tags,
       category,

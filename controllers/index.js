@@ -1,6 +1,9 @@
 // POST
 export { signupUser } from "./POST/userSignup.js";
 export { loginUser } from "./POST/userLogin.js";
+export { forgotPassword } from "./POST/userForgotPassword.js";
+export { resetPassword } from "./POST/userResetPassword.js";
+export { verifyEmail } from "./POST/userVerifyEmail.js";
 export { createThought } from "./POST/thoughtCreate.js";
 export { likeThought } from "./POST/thoughtLike.js";
 
@@ -23,3 +26,4 @@ export { updateUser } from "./PATCH/userUpdate.js";
 
 // DELETE
 export { deleteThought } from "./DELETE/thoughtDelete.js";
+export { deleteUser } from "./DELETE/userDelete.js";

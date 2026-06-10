@@ -1,4 +1,4 @@
-import Thought from "../models/Thought.js";
+import { Thought } from "../../models/Thought.js";
 
 export const getAllCategories = async (req, res) => {
   try {

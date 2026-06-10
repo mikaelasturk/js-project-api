@@ -3,13 +3,13 @@ import YAML from "yamljs";
 import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
+import dotenv from "dotenv";
 import listEndpoints from "express-list-endpoints";
-import passport from "passport";
-import session from "express-session";
-import "./config/googleOAuth.js";
-import { userRoutes, dashboardRoutes, thoughtRoutes, authRoutes } from "./routes/index.js";
+import { userRoutes, dashboardRoutes, thoughtRoutes } from "./routes/index.js";
 import { authenticateUser } from "./middleware/index.js";
 import { errorHandler } from "./middleware/errorHandler.js";
+
+dotenv.config();
 
 // [1] DB connection & app setup
 const mongoUrl = process.env.MONGO_URL || "mongodb://localhost/thoughts";
@@ -27,19 +27,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use(cors());
 app.use(express.json());
 
-// [3] Session & passport init
-app.use(
-  session({
-    secret: process.env.SESSION_SECRET || "supersecret",
-    resave: false,
-    saveUninitialized: false,
-  })
-);
-app.use(passport.initialize());
-app.use(passport.session());
-
-// [4] Routes
-app.use('/auth', authRoutes); // Google OAuth
+// [3] Routes
 app.use("/users", userRoutes);
 app.use("/dashboard", authenticateUser, dashboardRoutes);
 app.use("/thoughts", thoughtRoutes);

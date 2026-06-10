@@ -1,5 +1,5 @@
-import { Thought, User } from "../models/index.js";
-import { ERRORS } from "../utils/index.js";
+import { Thought, User } from "../../models/index.js";
+import { ERRORS } from "../../utils/index.js";
 
 export const getThoughtsByUser = async (req, res) => {
   try {
@@ -14,7 +14,16 @@ export const getThoughtsByUser = async (req, res) => {
       });
     }
     const thoughts = await Thought.find({ userId: user._id }).sort({ thoughtCreatedAt: -1 });
-    res.json(thoughts);
+    res.json({
+      user: {
+        username: user.username,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        city: user.city,
+        userCreatedAt: user.userCreatedAt,
+      },
+      thoughts,
+    });
   } catch (error) {
     res.status(400).json({
       success: false,

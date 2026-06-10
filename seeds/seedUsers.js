@@ -17,15 +17,10 @@ export const seedingUsers = async () => {
     await new User({
       firstName: "Carolina",
       lastName: "Oldertz",
+      username: "carolina",
       email: "carolina.oldertz@gmail.com",
       password: bcrypt.hashSync("carolina", salt),
       city: "Stockholm",
-      justifyMembership: "Hej på dig!!!!!!!!!!",
-      isPremium: true,
-      premiumStartDate: new Date(),
-      premiumEndDate: new Date(
-        new Date().setFullYear(new Date().getFullYear() + 1),
-      ),
     }).save();
   }
 
@@ -35,11 +30,11 @@ export const seedingUsers = async () => {
     await new User({
       firstName: "Mikaela",
       lastName: "Sturk",
+      username: "mikaela",
       email: "mikaelasturk@gmail.com",
       password: bcrypt.hashSync("mikaela", salt),
       city: "Stockholm",
-      justifyMembership: "Hej på digSAN!",
-      isPremium: false,
+    
     }).save();
   }
 };

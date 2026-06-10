@@ -1,5 +1,5 @@
-import { Thought } from "../models/index.js";
-import { ERRORS } from "../utils/index.js";
+import { Thought } from "../../models/index.js";
+import { ERRORS } from "../../utils/index.js";
 
 export const deleteThought = async (req, res) => {
   try {

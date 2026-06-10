@@ -1,5 +1,4 @@
 // Central export for all routes
-export { dashboardRoutes } from './dashboardRoutes.js';
-export { thoughtRoutes } from './thoughtRoutes.js';
-export { userRoutes } from './userRoutes.js';
-export { authRoutes } from './authRoutes.js';
+export { default as dashboardRoutes } from './dashboardRoutes.js';
+export { default as thoughtRoutes } from './thoughtRoutes.js';
+export { default as userRoutes } from './userRoutes.js';

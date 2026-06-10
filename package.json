@@ -7,7 +7,9 @@
     "dev": "nodemon server.js --exec babel-node",
     "test": "jest",
     "lint": "eslint . --ext .js,.mjs",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "seed:thoughts": "babel-node seeds/seedThoughts.js",
+    "seed:thoughts:reset": "RESET_SEED_DB=true babel-node seeds/seedThoughts.js"
   },
   "scripts-info": {
     "start": "Startar backend-servern i production mode (utan hot-reload)",
@@ -28,11 +30,16 @@
     "eslint": "^10.4.0",
     "express": "^4.22.1",
     "express-list-endpoints": "^7.1.1",
+    "express-session": "^1.19.0",
     "express-validator": "^7.3.2",
-    "mongodb": "^7.1.1",
+    "mongodb": "^7.3.0",
     "mongoose": "^8.23.0",
+    "nodemailer": "^8.0.10",
     "nodemon": "^3.1.14",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
     "prettier": "^3.8.3",
+    "swagger-ui-express": "^5.0.1",
     "yamljs": "^0.3.0"
   }
 }
